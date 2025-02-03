@@ -1,18 +1,6 @@
-<p align='center'>
-  <img src='https://i.imgur.com/KVmyXyo.png' alt='Vital - Vite Starter Template' width='600'/>
-</p>
+## Bleach fan site
 
-<p align='center'>
-Mocking up web app with <b>Vital</b><sup><em>(speed)</em></sup><br>
-</p>
-
-<br>
-
-<p align='center'>
-<a href="https://vital.dalerkhamidov.dev">Live Demo</a>
-</p>
-
-<br>
+A fan site for practice
 
 ## Features
 
@@ -50,19 +38,6 @@ cd my-vital-app
 yarn # If you don't have yarn installed, run: npm install -g yarn
 ```
 
-## Checklist
-
-When you use this template, try follow the checklist to update your info properly
-
-- [ ] Rename `name` and `author` fields in `package.json`
-- [ ] Change the author name in `LICENSE`
-- [ ] Change the title in `index.html`
-- [ ] Change the favicon in `public`
-- [ ] Modify the manifest in `public`
-- [ ] Clean up the README's
-
-And, enjoy :)
-
 ## Usage
 
 ### Development
@@ -94,9 +69,3 @@ Go to [Netlify](https://app.netlify.com/start) and select your repository, `OK` 
 If pre-commit hooks are not working be sure that you have installed husky: `husky install`.
 
 By default this command should be triggered after yarn/npm deps are installed.
-
-## Why
-
-I have created several React apps recently. Setting the configs up is kinda the bottleneck for me to make the ideas simply come true within a very short time.
-
-So I made this starter template for myself to create apps more easily, along with some good practices that I have learned from making those apps. Feel free to tweak it or even maintains your own forks.

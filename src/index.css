@@ -1,3 +1,4 @@
+@import './components/fonts/fonts.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,12 +16,13 @@
   }
 
   main {
-    @apply px-4 min-h-screen sm:px-0 space-y-16 w-full bg-gray-900;
+    @apply px-4 min-h-screen sm:px-0 space-y-16 w-full bg-gray-200 dark:bg-gray-950;
+
     background-image: radial-gradient(
-        hsla(0, 0%, 84.3%, 0.25) 1px,
+        hsl(189, 100%, 50%) 1px,
         transparent 0
       ),
-      radial-gradient(hsla(0, 0%, 84.3%, 0.1) 1px, transparent 0);
+      radial-gradient(hsla(189, 62%, 34%, 0.769) 1px, transparent 0);
     background-size: 50px 50px;
     background-position: 0 0, 25px 25px;
     -webkit-animation: slide 2s linear infinite;
